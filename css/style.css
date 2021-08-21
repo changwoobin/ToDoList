@@ -1,0 +1,56 @@
+.hidden {
+    display: none;
+}
+
+.inputButton {
+    background-color:transparent;
+    border: none;
+}
+
+body {
+    background-size: 100%;
+}
+
+.texts {
+    text-align: center;
+}
+
+#todo-list {
+    list-style: none;
+    text-align: none;
+    margin-left: 40%;
+    width: 200px;
+}
+.inputText {
+    background-color:transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid black;
+    -webkit-appearance: none;
+    outline: none;
+    width: 290px;
+    height: 30px;
+    font-size: 26.6666px;
+    margin: 20px;
+}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { /* WebKit browsers */ color:transparent; } input:focus:-moz-placeholder, textarea:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:transparent; } input:focus::-moz-placeholder, textarea:focus::-moz-placeholder { /* Mozilla Firefox 19+ */ color:transparent; } input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */ color:transparent; }
+
+#clock {
+    margin-top: 4%;
+    font-size: 7em;
+    margin-bottom: 0px;
+}
+
+#greeting {
+    font-size: 3em; 
+    margin: 20px;
+}
+
+#weather {
+    text-align: right;
+}
+
+#quote {
+    margin-top: 10px
+}
